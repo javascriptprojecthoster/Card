@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Аврора - Каталог</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!------------------------------------------------------------------------------------->
+
+      <div class="menu-block text-right col-4 col-md-6 col-lg-1">
+        <nav id="main-menu" class="main-menu">
+          <div class="bg-menu toggle-menu"></div>
+          <div class="menu-block d-lg-flex justify-content-between">
+            <div class="menu-container">
+              <div class="main-menu__close toggle-menu">
+                <a href="" onclick="menu_close(); return false;" id="menuClose"
+                  ><img src="./img/icons/icon_close3.png" style="width: 25px"
+                /></a>
+              </div>
+
+              <ul
+                class="main-menu__list"
+                itemscope=""
+                itemtype="http://www.schema.org/SiteNavigationElement"
+              >
+                <li class="active menu__link" ><a href="#" data-link="catalog">Каталог</a></li>
+                <li class="menu__link"><a href="#" data-link="question">Остались вопросы?</a></li>
+                <li class="menu__link"><a href="#" data-link="map">Карта</a></li>
+                <li class="menu__link"><a href="#" data-link="contact">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!------------------------------------------------------------------------------------->
+      <header class="header">
+        <div class="header__left">
+          <div class="header__logo"><a href="#"><img src="./img/icons/logofont.png" alt=""></a></div>
+        </div>
+        <div class="header__right">
+          <div class="header__phone">+7 (800) 800-80-80</div>
+          <div class="header__menu">
+            <div class="header__menu_txt" onclick="menu_open(); return false;">Меню</div>
+            <div class="header__menu_icon">
+              <a href="#" onclick="menu_open(); return false;" id="menuBurger">
+                <img src="./img/icons/icon_menu.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!------------------------------------------------------------------------------------->
+      <div class="location">
+        <p>
+          <a
+            href="#"
+            class="location__link location__link_previous"
+            >Каталог</a
+          >
+        </p>
+        <p>/</p>
+        <p>
+          <a href="#" class="location__link location__link_previous"
+            >Россия</a
+          >
+        </p>
+        <p>/</p>
+        <p><a href="#" class="location__link location__link_previous">Москва</a></p>
+        <p>/</p>
+        <p><a href="#" class="location__link current__location">ЖК «Esthetic»</a></p>
+      </div> 
+    <!------------------------------------------------------------------------------------->
+
+<div class="card">
+  <h3 class="card__title card__title_mobile">ЖК «Esthetic»</h3>
+  <div class="card__photos photos">
+    <div class="photos__main">
+      <img src="./img/cards/image.png" alt="" class="background">
+    </div>
+    <div class="photos__items">
+      <div class="photos__item">
+        <img src="./img/cards/image.png" alt="" class="background">
+        <div class="photo__background">
+          <img src="./img/icons/eye.svg" alt="">
+        </div>
+      </div>
+      <div class="photos__item">
+        <img src="./img/cards/image.png" alt="" class="background">
+        <div class="photo__background">
+          <img src="./img/icons/eye.svg" alt="">
+        </div>
+      </div>
+      <div class="photos__item">
+        <img src="./img/cards/image.png" alt="" class="background">
+        <div class="photo__background">
+          <img src="./img/icons/eye.svg" alt="">
+        </div>
+      </div>
+      <div class="photos__item">
+        <img src="./img/cards/image.png" alt="" class="background">
+        <div class="photo__background">
+          <img src="./img/icons/eye.svg" alt="">
+        </div>
+      </div>
+      <div class="photos__item">
+        <img src="./img/cards/image.png" alt="" class="background">
+        <div class="photo__background">
+          <img src="./img/icons/eye.svg" alt="">
+        </div>
+      </div>
+      <div class="photos__item photos__item_last">
+        <img src="./img/cards/image.png" alt="" class="background">
+        <div class="photo__background">
+          <img src="./img/icons/eye.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card__info">
+    <h3 class="card__title card__title_destop">ЖК «Esthetic»</h3>
+      <div class="card__description">Новый жилищный комплекс Esthetic поразит Вас красотой своих форм и очертаний, изящными инженерными решениями. Проработанная структура здания, удобное расположения коммуникаций, большой двор и конечно-же, удобная подземная парковка.</div>
+      <div class="card__subtitles">
+        <p class="card__subtitle card__location">
+          г. Москва, Мясницкая ул, 26А, стр.1,
+        </p>
+        <p class="card__subtitle card__square">от 45 м²</p>
+        <p class="card__subtitle card__rooms">
+          студии, 1-кн, 2-кн, 3-кн
+        </p>
+        <p class="card__subtitle card__price">
+          от 2 500 000 ₽
+        </p>
+        <button
+        class="card__button button"
+      >
+        Отправить заявку
+      </button>
+      </div>
+
+  </div>
+</div>
+
+
+    <!------------------------------------------------------------------------------------->
+    <div class="text">
+      <div class="container">
+        <h2 class="title">Заголовок текстового блока</h2>
+        <p>
+          Идейные соображения высшего порядка, а также постоянный количественный
+          рост и сфера нашей активности влечет за собой процесс внедрения и
+          модернизации форм развития. Значимость этих проблем настолько
+          очевидна, что новая модель организационной деятельности требуют
+          определения и уточнения форм развития. Идейные соображения высшего
+          порядка, а также дальнейшее развитие различных форм деятельности
+          требуют определения и уточнения направлений прогрессивного развития.
+          Tаким образом постоянное информационно-пропагандистское обеспечение
+          нашей деятельности в значительной степени обуславливает создание
+          направлений прогрессивного развития. С другой стороны начало
+          повседневной работы по формированию позиции играет важную роль в
+          формировании новых предложений.
+        </p>
+        <p>
+          Таким образом рамки и место обучения кадров обеспечивает широкому
+          кругу (специалистов) участие в формировании направлений прогрессивного
+          развития. Повседневная практика показывает, что дальнейшее развитие
+          различных форм деятельности позволяет оценить значение систем
+          массового участия. Задача организации, в особенности же сложившаяся
+          структура организации требуют определения и уточнения модели развития.
+          Повседневная практика показывает, что реализация намеченных плановых
+          заданий в значительной степени обуславливает создание систем массового
+          участия. Товарищи! постоянный количественный рост и сфера нашей
+          активности позволяет выполнять важные задания по разработке
+          соответствующий условий активизации.
+        </p>
+      </div>
+    </div>
+    
+    <!------------------------------------------------------------------------------------->
+
+     <!------------------------------------------------------------------------------------->
+    <div class="wrapper">
+      <div class="help">
+        <img
+          src="../../img/question/question__background.jpg"
+          alt=""
+          class="background"
+        />
+        <div class="help__content">
+          <h2>Не можете найти подходящий вариант?</h2>
+          <h2>Мы поможем вам!</h2>
+          <p>Оставьте свою заявку и мы поможем Вам с подбором!</p>
+          <button class="help__button button popup-link" data-href="popup">
+            Отправить заявку
+          </button>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------------------------------------------------------->
+    <div id="popup" class="popup">
+      <div class="popup__body">
+        <div class="popup__image">
+          <img src="../../img/question/question__background.jpg" alt=""
+          class="background"" alt="">
+        </div>
+        <form class="form popup__form" id="form" method="post">
+          <h2 class="form__title">
+            Оставьте свою заявку и мы поможем Вам с подбором!
+          </h2>
+          <div class="form__item">
+            <input
+              type="text"
+              class="form__input"
+              id="formName"
+              placeholder="Ваше имя"
+            />
+          </div>
+          <div class="form__item">
+            <input
+              type="tel"
+              class="form__input"
+              id="formTel"
+              placeholder="Ваш телефон"
+            />
+          </div>
+          <div class="form__agreement agreement">
+            <label class="checkbox style-d">
+              <input type="checkbox" id="formCheckbox" />
+              <div class="checkbox__checkmark"></div>
+              <div class="agreement__label">
+                Соглашаюсь с <span>условиями передачи данных</span>
+              </div>
+            </label>
+          </div>
+          <div class="form__buttons">
+            <button
+              class="form__button button disabled"
+              id="formButton"
+              disabled
+            >
+              Отправить
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!------------------------------------------------------------------------------------->
+    <div class="contacts" id="contact">
+      <h2 class="title">Контакты</h2>
+      <div class="contacts__container wrapper">
+        <div class="contacts_icon contacts__desktop">
+          <a href="#"><img src="./img/icons/contacts.png" alt="" /></a>
+        </div>
+        <div class="contacts__numbers contacts__desktop">
+          <div class="contacts__number">
+            <p>(8423) 79-54-44</p>
+            <p>(8452) 53-08-06</p>
+            <p>(903) 383-25-45</p>
+            <p><a href="#" class="contacts__link">Обратный звонок</a></p>
+          </div>
+        </div>
+
+        <div class="contacts__tablet">
+          <div class="contacts_icon">
+            <a href="#"><img src="./img/icons/contacts.png" alt="" /></a>
+          </div>
+          <div class="contacts__numbers">
+            <div class="contacts__number">
+              <p>(8423) 79-54-44</p>
+              <p>(8452) 53-08-06</p>
+              <p>(903) 383-25-45</p>
+              <p><a href="#" class="contacts__link">Обратный звонок</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacts__links">
+          <p><a href="#" class="contacts__link">WhatsApp</a></p>
+          <p><a href="#" class="contacts__link">Telegram</a></p>
+          <p><a href="#" class="contacts__link">Instagram</a></p>
+          <p><a href="#" class="contacts__link">VK</a></p>
+        </div>
+        <div class="contacts__info">
+          <p class="contacts__text">
+            Вся информация, опубликованная на сайте, носит только информационный
+            характер и не является публичной офертой, определяемой положениями
+            ст. 437 ГК РФ. Все права защищены. При копировании материалов с
+            сайта гиперссылка обязательна.
+          </p>
+          <p>
+            <a href="#" class="contacts__link"
+              >Политика обработки персональных данных</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!------------------------------------------------------------------------------------->
+    <footer class="footer">
+      <div class="footer__container container desktop">
+        <div class="footer__new footer__column">
+          <h3><a href="#">Новинки</a></h3>
+          <h3><a href="#">Премиум</a></h3>
+        </div>
+        <div class="footer__country footer__column">
+          <h3><a href="#">Страны</a></h3>
+          <p class="country"><a href="#">Российская Федерация</a></p>
+          <p class="country"><a href="#">ОАЭ (Дубаи)</a></p>
+          <p class="country"><a href="#">Кипр</a></p>
+          <p class="country"><a href="#">Турция</a></p>
+        </div>
+        <div class="footer__service footer__column">
+          <h3><a href="#">Наши услуги</a></h3>
+          <p><a href="#">Юридическое сопровождение сделок</a></p>
+          <p><a href="#">Официальное представительно</a></p>
+          <p><a href="#">Индивидуальный подход к каждому клиенту</a></p>
+          <p><a href="#">Поиск квартиры в сжатые сроки.</a></p>
+        </div>
+        <div class="footer__team footer__column">
+          <h3><a href="#">Наша команда</a></h3>
+          <h3><a href="#">Отзывы</a></h3>
+        </div>
+      </div>
+
+      <div class="footer__container container tabletop">
+        <div class="footer__column_1">
+          <div class="footer__new footer__column">
+            <h3><a href="#">Новинки</a></h3>
+            <h3><a href="#">Премиум</a></h3>
+          </div>
+          <div class="footer__team footer__column">
+            <h3><a href="#">Наша команда</a></h3>
+            <h3><a href="#">Отзывы</a></h3>
+          </div>
+        </div>
+        <div class="footer__column_2">
+          <div class="footer__country footer__column">
+            <h3><a href="#">Страны</a></h3>          <p id="country" data-country="russia"><a href="City/index.html">Российская Федерация</a></p>
+            <p class="country"><a href="#">Российская Федерация</a></p>
+            <p class="country"><a href="#">ОАЭ (Дубаи)</a></p>
+            <p class="country"><a href="#">Кипр</a></p>
+            <p class="country"><a href="#">Турция</a></p>
+          </div>
+          <div class="footer__service footer__column">
+            <h3><a href="#">Наши услуги</a></h3>
+            <p><a href="#">Юридическое сопровождение сделок</a></p>
+            <p><a href="#">Официальное представительно</a></p>
+            <p><a href="#">Индивидуальный подход к каждому клиенту</a></p>
+            <p><a href="#">Поиск квартиры в сжатые сроки.</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!------------------------------------------------------------------------------------->
+
+    <!-- Подключение JS файла Bootstrap с плагинами -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="http://code.jquery.com/jquery-1.6.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="js/burger.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="js/telMask.js"
+    ></script>
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="js/main.js"
+    ></script>
+  </body>
+</html>
